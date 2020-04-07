@@ -1,0 +1,31 @@
+{
+  "name": "gpg-encryption-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gpg-service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.ts\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfrank66/gpg-encryption-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vfrank66/gpg-encryption-ts/issues"
+  },
+  "homepage": "https://github.com/vfrank66/gpg-encryption-ts#readme",
+  "devDependencies": {
+    "import-sort-style-eslint": "^6.0.0",
+    "prettier": "^2.0.4",
+    "prettier-plugin-import-sort": "0.0.4",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "parser": "typescript"
+    }
+  }
+}
